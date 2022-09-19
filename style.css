@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&family=Roboto&display=swap');
+
+:root{
+    --primary-color: #59114D;
+    --secundary-color:#E98A15;
+    --font-color: #ECE5F0;
+    --details-color-light:#003b36;
+    --details-color-dark:#012622;
+
+}
+html{
+    font-family: 'roboto', sans-serif;
+}
+
+body{
+    background-color: var(--primary-color);
+    color: var(--font-color);
+}
+h3{
+    color: var(--secundary-color);
+}
+
+.boards{
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.board{
+    background: var(--details-color-dark);
+    border: 1px solid var(--details-color-dark);
+    border-radius: 4px;
+}
+
+.board h3{
+    padding: 16px;
+    margin: 0 16px;
+}
+.dropzone{
+    padding: 16px;
+    min-width: 332px;
+    min-height: 200px;
+    background-color: var(--details-color-light);
+}
+.card{
+    background-color: var(--details-color-dark);
+    padding: 16px;
+    box-shadow: 0 2px 2px -1px  var(--secundary-color);
+}
